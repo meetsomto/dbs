@@ -1,20 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T09:08:45.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="cbyFxI6B9LMWmQU5XW6D" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T09:16:37.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="PoMfv7IHIKJ_-GiSadHb" version="13.8.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="361" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="782" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3rl7oUPLw8-FhLQ5muPx-7" value="Piano_Model" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="70" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3rl7oUPLw8-FhLQ5muPx-8" value="+id_no&#xa;+name" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="3rl7oUPLw8-FhLQ5muPx-7">
+        <mxCell id="3rl7oUPLw8-FhLQ5muPx-8" value="+id_no&#xa;+piano_name" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=1" vertex="1" parent="3rl7oUPLw8-FhLQ5muPx-7">
           <mxGeometry y="30" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rl7oUPLw8-FhLQ5muPx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3rl7oUPLw8-FhLQ5muPx-7" source="3rl7oUPLw8-FhLQ5muPx-8" target="3rl7oUPLw8-FhLQ5muPx-8">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3rl7oUPLw8-FhLQ5muPx-13" value="Designer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="50" y="240" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3rl7oUPLw8-FhLQ5muPx-32" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;dashed=1;endFill=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -43,7 +40,7 @@
         <mxCell id="3rl7oUPLw8-FhLQ5muPx-11" value="Piano" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="390" y="70" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3rl7oUPLw8-FhLQ5muPx-12" value="+serial_no&#xa;+manufact_completion_date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=1" vertex="1" parent="3rl7oUPLw8-FhLQ5muPx-11">
+        <mxCell id="3rl7oUPLw8-FhLQ5muPx-12" value="+id_serial_no&#xa;+manufact_completion_date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=1" vertex="1" parent="3rl7oUPLw8-FhLQ5muPx-11">
           <mxGeometry y="30" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rl7oUPLw8-FhLQ5muPx-15" value="Inspection" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -57,6 +54,12 @@
         </mxCell>
         <mxCell id="3rl7oUPLw8-FhLQ5muPx-18" value="+employee_no&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="3rl7oUPLw8-FhLQ5muPx-17">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3rl7oUPLw8-FhLQ5muPx-45" value="Designer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3rl7oUPLw8-FhLQ5muPx-46" value="+designer_id&#xa;+designer_name" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="3rl7oUPLw8-FhLQ5muPx-45">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
