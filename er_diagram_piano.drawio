@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T05:55:03.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="OzsCTI2xm_nWxn3v_ppf" version="13.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-28T05:58:07.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="4zsyOFSHaHmCCxgWU-YL" version="13.8.5" type="github" pages="2">
   <diagram id="wfeXpfmRRTUBRRbTYuu1" name="relational-diagram">
-    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="AUIAXAX3j84-FacNN-Je-0" />
         <mxCell id="AUIAXAX3j84-FacNN-Je-1" parent="AUIAXAX3j84-FacNN-Je-0" />
@@ -204,6 +204,9 @@
             <mxPoint x="610" y="620" as="sourcePoint" />
             <mxPoint x="840" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xNJhmkuakIggJ83uwNSt-0" value="Assumptions:&lt;br&gt;1. Designer has an id and a name&lt;br&gt;2. Technician has a name and contact details&lt;br&gt;3. Non-identifying relationships are shown by dotted lines&lt;br&gt;4. Every inspection will have a unique inspection number&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="AUIAXAX3j84-FacNN-Je-1">
+          <mxGeometry x="-50" y="460" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
